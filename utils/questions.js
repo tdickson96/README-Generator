@@ -62,8 +62,6 @@ const questions = [
     }
   ];
 
-// export modules required?
-// exports.questions
-// exports.modules = {
-//    questions: questions,
-// } 
+module.exports = {
+    questions: questions,
+};
