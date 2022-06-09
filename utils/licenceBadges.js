@@ -1,5 +1,5 @@
 // List of badges for licensing copy and paste
-function licences(badge) {
+function licenceBadge(value) {
   if (value === "Apache") {
     return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
   } else if (value === "Boost") {
@@ -12,5 +12,5 @@ function licences(badge) {
 }
 
 module.exports = {
-  licences: licences,
+  licenceBadge: licenceBadge, 
 };

@@ -1,5 +1,5 @@
 // https://www.markdownguide.org/basic-syntax/
-function markdownFunction (data) {
+function markdownFunction(data) {
     return `
 
 # ${data.title}
@@ -8,7 +8,7 @@ function markdownFunction (data) {
 
     ${data.licenceBadge}
 
-    [Find the link to live website here:](${data.website})
+    [Find the link to deployed website here:](${data.website})
 
 ---
 ## Table of Contents
@@ -17,7 +17,7 @@ function markdownFunction (data) {
     a. [Story](#story)
     b. [Criteria](#criteria)
     c. [Technology](#technology)
-2. [Installation](#installation)
+2. [Install](#install)
 3. [Licence](#licence)
 4. [Contribution](#contribution)
 5. [Tests](#tests)
@@ -38,9 +38,9 @@ function markdownFunction (data) {
 ## Technology
 
 ---
-## Installation
+## Install
 
-    ${data.installation}
+    ${data.install}
 
     Clone the repository:
 
@@ -75,12 +75,9 @@ function markdownFunction (data) {
 ## Contact
 
 > GitHub username: ${data.userName}
-
 > Contact email: ${data.email}
 
 `;
 }
 
-module.exports = {
-    markdownFunction: markdownFunction,
-};
+module.exports = markdownFunction;

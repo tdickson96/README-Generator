@@ -1,3 +1,4 @@
+// user questions
 let questions = [
     {
         type: "input",
@@ -26,13 +27,13 @@ let questions = [
     },
     {
         type: "list",
-        name: "licenceBadge",
+        name: "licenses",
         message: "Please select the license you used for this project.",
         choices: [
-          "Mozilla",
-          "MIT",
           "Apache",
           "Boost",
+          "MIT",
+          "Mozilla",
         ]
     },
     {
