@@ -1,5 +1,5 @@
 // https://www.markdownguide.org/basic-syntax/
-function markdown(data) {
+function markdownFunction (data) {
     return `
 
 # ${data.title}
@@ -78,9 +78,9 @@ function markdown(data) {
 
 > Contact email: ${data.email}
 
-    `;
+`;
 }
 
 module.exports = {
-    markdown: markdown,
+    markdownFunction: markdownFunction,
 };
