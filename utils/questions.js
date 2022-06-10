@@ -27,7 +27,7 @@ let questions = [
     },
     {
         type: "list",
-        name: "licenses",
+        name: "licenceBadge",
         message: "Please select the license you used for this project.",
         choices: [
           "Apache",
