@@ -25,8 +25,6 @@ async function generateReadme() {
         let answers = await inquirer.prompt(questions);
         // licence 
         answers.licences = licenceBadge(answers.licenceBadge);
-        // licence badge
-        console.log(answers.licences);
         // README creator
         let readmeInfo = markdownFunction(answers);
         // write README file
