@@ -8,7 +8,7 @@
 
     [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-    [Find the link to deployed website here:](https://github.com/tdickson96/README-Generator)
+    [Find the link to deployed website here](https://github.com/tdickson96/README-Generator)
 
 ---
 ## Table of Contents
@@ -30,16 +30,19 @@
 ---
 ## About 
 
-    A user input README generator that writes a README.md file for the user and fills the information based on user input of test questions.
+    A user input README generator that writes a README.md file for the user and fills the information based on user input of questions. The README file includes the project title, a description, a table of contents, an install guide, usage, a licence, contributions, tests, and user information and questions. 
 
 ---
 ## Story
 
----
-## Criteria
+    As a user, I found writing out my README.md files to be a practice in patience, markdown, and syntax. Now, as I have evolved as a programmer, I would like to cut down the time I spend formatting my README.md files and focus more on the quality of the content. Here, I have used Node and Inquirer to develop a markdown format that generates a README file after answering a series of questions.
 
 ---
 ## Technology
+
+Inquirer
+Node
+JavaScript
 
 ---
 ## Install
@@ -68,7 +71,7 @@
 ---
 ## Tests
 
-    Yes, the video can be viewed here: 
+    [The test video can be viewed here](https://drive.google.com/file/d/1ijO0zV_Fi_tVfIAT02XkemIEk_q3ZH27/view?usp=sharing)
 
 ---
 ## Authors
@@ -80,4 +83,3 @@
 
 > GitHub username: tdickson96
 > Contact email: trentdickson22@gmail.com
-
