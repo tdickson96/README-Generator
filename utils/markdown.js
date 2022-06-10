@@ -8,15 +8,21 @@ function markdownFunction(data) {
 
     ${data.licenceBadge}
 
+    ${data.licences}
+
     [Find the link to deployed website here:](${data.website})
 
 ---
 ## Table of Contents
 
 1. [About!](#about)
+
     a. [Story](#story)
+
     b. [Criteria](#criteria)
+
     c. [Technology](#technology)
+    
 2. [Install](#install)
 3. [Licence](#licence)
 4. [Contribution](#contribution)
@@ -49,7 +55,7 @@ function markdownFunction(data) {
 ---
 ## Licence
 
-    Licence used: ${data.licence}
+    Licence used: ${data.licenceBadge}
 
 ---
 ## Contribution
@@ -80,4 +86,6 @@ function markdownFunction(data) {
 `;
 }
 
-module.exports = markdownFunction;
+module.exports = {
+    markdownFunction: markdownFunction,
+};
