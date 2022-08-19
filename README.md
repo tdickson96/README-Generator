@@ -1,14 +1,10 @@
-
-
 # README-Generator
 
     A command-line README generator powered by JavaScript, Node, and Inquirer. 
 
-    MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-    [Find the link to deployed website here](https://github.com/tdickson96/README-Generator)
+[Find the link to deployed website here](https://github.com/tdickson96/README-Generator)
 
 ---
 ## Table of Contents
@@ -54,11 +50,6 @@ JavaScript
         git clone https://github.com/tdickson96/README-Generator
 
 ---
-## Licence
-
-    Licence used: MIT
-
----
 ## Contribution
 
     If you would like to learn how to assist or contribute to this project:
@@ -69,9 +60,14 @@ JavaScript
         - Create a new pull request
 
 ---
-## Tests
+## Usage
 
-    [The test video can be viewed here](https://drive.google.com/file/d/1ijO0zV_Fi_tVfIAT02XkemIEk_q3ZH27/view?usp=sharing)
+[The test video can be viewed here](https://drive.google.com/file/d/1ijO0zV_Fi_tVfIAT02XkemIEk_q3ZH27/view?usp=sharing)
+
+![demo](./assets/images/demo0.png)
+![demo](./assets/images/demo1.png)
+![demo](./assets/images/demo2.png)
+![demo](./assets/images/demo3.png)
 
 ---
 ## Authors
@@ -82,4 +78,5 @@ JavaScript
 ## Contact
 
 > GitHub username: tdickson96
+
 > Contact email: trentdickson22@gmail.com
